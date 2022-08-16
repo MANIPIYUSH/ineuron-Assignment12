@@ -290,31 +290,195 @@ border-color: rgb(88, 237, 237);
      
 
 }
-/* .buttonIn {
-    width: 300px;
-    position: relative;
-} */
- 
-/* input {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    outline: none;
-    height: 30px;
-    border-radius: 5px;
+@media screen and (max-width: 480px) {
+      .items{
+        display: flex;
+        flex-direction: column;
+        color: crimson; 
+      }
+      .toptext{
+        display:none;
+      }
+      .leftimg img{
+      
+        position: relative;
+        width: 150px;
+        left: 10px;
+        height: 150px;
+        top: 10px;
+      }
+      .textpart2{
+        font-size: 7px;
+        color: red;
+      }
+
+      .num h1{
+        position: relative;
+       left: 50px
+         
+    }
+    .num h6{
+        margin-left: 50px;
+        margin-top: -15px;
+    }
+    .num1 h1{
+        position: relative;
+       left: 170px;top: -85px;
+         
+    }
+    .num1 h6{
+        margin-left: 165px;
+        margin-top: -95px;
+    }
+    
+    .num2 h1{
+        position: relative;
+       left: 270px;top: -110px;
+         
+    }
+    .num2 h6{
+        margin-left: 260px;
+        margin-top: -120px;
+    }
+    
+    
+    .num3 h1{
+        position: relative;
+       left: 350px;top: -135px;
+         
+    }
+    .num3 h6{
+        margin-left: 350px;
+        margin-top: -145px;
+    }
+    .textalign img{
+    
+        position: relative;
+        left: 10px;height: 380px;width: 500px;top: -50px;
+    }
+    
+    .part3 h1{
+                  display: none;
+           }
+
+         .part3txt h1{
+
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 15px;
 }
- 
-button {
+.part3txt h6{
+
+    font-weight: lighter;
+    margin-left: 50px;
+    
+}
+.part3txt button{
+    color: #FFF;
+    background-color: rgb(88, 237, 237);
+    border-color: #fff;
+    margin-left: 50px;
+}
+.part3img img{
+       position: relative;
+       height: 150px;width: 150px;left: 300px;
+       top: -250px;
+
+}
+.part4 img{
+
     position: relative;
-    top: 0;
-    border-radius: 5px;
-    right: 0px;
-    z-index: 2;
-    border: none;
-    top: 2px;
-    height: 30px;
-    cursor: pointer;
-    color: white;
-    background-color: #1e90ff;
-    transform: translateX(2px);
-} */
+   left: 50px;
+    height: 150px;width: 150px;
+    top: -80px;
+}
+.part4 h1{
+
+    margin-left: 250px;
+    font-size: 15px;
+    margin-top: -250px;
+}
+.part4 h6{
+   margin-left: 250px;
+}
+.part4 button{
+    margin-left: 250px;
+    color: #FFF;
+    background-color:rgb(88, 237, 237);
+    border-color: #FFF;
+}
+.part5{
+
+    margin-left: 10px;
+    margin-top: 180px;
+}
+.part5 h1{
+    font-size: 15px;
+}
+.part5 h6{
+    font-weight: lighter;
+}
+.part5 button{
+    color: #FFF;
+    background-color:  rgb(88, 237, 237);
+    border-color: #FFF;
+}
+.part5img img{
+    height: 150px;width: 150px;
+    margin-left: 260px;margin-top: -210px;
+}
+.part6{
+
+    display: flex;
+    flex-direction: column;
+   
+}
+.part6 h6{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.part7{
+    display: flex;
+    flex-direction: column;
+}
+.bottomitem{
+    margin-left: -30px;
+    margin-top: 150px;
+    
+   
+}
+.bottomitem1{
+
+    margin-left: -140px;
+    font-size: 5px;
+    
+}
+.bottomitem2{
+
+    margin-left: -50px;
+    margin-top: -70px;
+    font-size: 5px;
+}
+.bottomitem3{
+
+    margin-left: 30px;
+    font-size: 5px;
+    margin-top: -70px;
+    
+}
+.bottomitem4{
+
+    margin-left: 90px;
+    font-size: 5px;
+    margin-top: -70px;
+}
+.bottomitem5{
+
+    margin-left: 150px;
+    font-size: 5px;
+    margin-top:-70px;
+}
+  
+
+  }
