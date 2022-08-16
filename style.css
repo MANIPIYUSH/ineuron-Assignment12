@@ -290,6 +290,9 @@ border-color: rgb(88, 237, 237);
      
 
 }
+
+/* code for responsiveness */
+
 @media screen and (max-width: 480px) {
       .items{
         display: flex;
